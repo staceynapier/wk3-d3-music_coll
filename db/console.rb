@@ -17,3 +17,4 @@ album1.save()
 album2.save()
 # p Album.all
 p artist1.list_albums()
+p album2.list_artist()
