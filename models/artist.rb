@@ -1,3 +1,4 @@
+require_relative('./sql_runner')
 require('pg')
 
 class Artist
