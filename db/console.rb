@@ -15,6 +15,10 @@ album2 = Album.new({'title' => 'Bat Out of Hell2', 'genre' => 'rock', 'artist_id
 
 album1.save()
 album2.save()
+
+album2 = Album.new({'title' => 'Greatest Hits', 'genre' => 'rock', 'artist_id' => artist1.id})
+album2.update()
+p album2
 # p Album.all
 p artist1.list_albums()
 p album2.list_artist()
